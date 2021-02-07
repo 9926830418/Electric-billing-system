@@ -172,7 +172,7 @@ display: flex;
   width: 100%;
 }
 #intro{
-  width: 100%;
+  width: 70%;
   float:right;
 	text-align: left;
   justify-content: right;
@@ -549,6 +549,6 @@ label #butn, label #cancel{
 	   width:100%;
 	}
 	#intro{
-		width:100%;
+		width:60%;
 	}
 }
