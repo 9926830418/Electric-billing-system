@@ -162,7 +162,7 @@ display: flex;
 
 }
 #imgresponsive img{
- width: 100%;
+ width: 70%;
  border: 1px solid #000;
  border-radius: 20px;
  margin-top: 20px;
@@ -171,10 +171,10 @@ display: flex;
 	justify-content:center;
 }
 .int{
-  width: 100%;
+  width: 70%;
 }
 #intro{
-  width: 70%;
+  width: 50%;
 	text-align: center;
   justify-content: center;
 	align-item:center;
