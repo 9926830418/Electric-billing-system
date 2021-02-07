@@ -167,14 +167,17 @@ display: flex;
  border-radius: 20px;
  margin-top: 20px;
  text-align:center;
+	align-item:center;
+	justify-content:center;
 }
 .int{
   width: 100%;
 }
 #intro{
-  width: 75%;
+  width: 70%;
 	text-align: center;
   justify-content: center;
+	align-item:center;
 	text-decoration: none;
 	color: #000;
 	font-size: 20px;
