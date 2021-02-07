@@ -471,12 +471,11 @@ label #butn, label #cancel{
   .first-half img{
     width: 30%;
     margin-top: 50px;
-   padding-top:50px;
+  
   }
   .second-half p{
   width: 100%;
   font-size: 25px;
-  padding-top: 30px;
   margin-top: 20px;
   }
   #head{
