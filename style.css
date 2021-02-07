@@ -534,6 +534,12 @@ label #butn, label #cancel{
      display: flex;
 
    }
+	.sol{
+     width:80%;
+     justify-content: center;
+     align-items: center;
+    text-align: center; 
+    }
    .secondsave{
   
     width: 60%;
