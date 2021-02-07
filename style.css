@@ -1,0 +1,541 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+body{
+  background-color: #f6f5f4;
+}
+/*nav bar logo*/
+.logo{
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo img{
+
+    width: 33%;
+    border: 1px solid  #fff;
+    border-radius: 35px;
+}
+
+/*nav bar elements */
+.navbar{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+position: sticky;
+top: 0%;
+background-color: rgba(0,0,0,0.7);
+
+}
+.navlist{
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+
+}
+/*nav bar list li*/
+.navlist li{
+list-style: none;
+padding: 26px 30px;
+
+}
+
+.navlist li a{
+color:white;
+text-decoration: none;
+transition: 0.6s ease;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*navbar list hover effect*/
+.navlist li a:hover{
+	color: turquoise;
+}
+/*search bar and btn effects and hover effect */
+
+.rightnav{
+width: 50%;
+text-align: right;
+}
+
+#search{
+
+  padding: 4px;
+  font-size: 15px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.btn{
+width: 12%;
+border: 2px solid #fff;
+border-radius: 10px;
+padding: 2px;
+background-color:rgba(0,0,0,0.7);
+cursor: pointer;
+color: #fff;
+margin: 7px 10px;
+
+}
+
+.btn:hover{
+  background-color:  turquoise;
+  color: #000;
+}
+
+/*backgground images class*/
+.background{
+
+  background: rgba(0,0,0,0.7) url('../images/1.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+/*home page section*/
+.firstsection{
+  height: 100vh;
+}
+/*home page main div class*/
+.box main{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+
+}
+/*first-half class of home page for images*/
+.first-half{
+width: 30%;
+
+}
+
+.first-half img{
+width: 15%;
+border: 2px solid #fff;
+border-radius:  170px;
+display: block;
+margin: auto;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+/*second half class of home page*/
+.second-half{
+width: 30%;
+position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: #fff;
+justify-content: center;
+text-align: center;
+
+}
+.text-big{
+  font-size: 25px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.text-small{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 20px;
+}
+/*--second section of home page--*/
+
+.homesection{
+width: 100%;
+display: flex;
+}
+#imgresponsive{
+  width: 50%;
+  justify-content: left;
+  text-align: left;
+
+}
+#imgresponsive img{
+ width: 70%;
+ border: 1px solid #000;
+ border-radius: 20px;
+ margin-top: 20px;
+ margin-left: 30px;
+}
+#intro{
+  width: 50%;
+  float:right;
+	text-align: left;
+  justify-content: right;
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+ border: 1px solid transparent;
+	padding: 10px 80px;
+  margin-top: 60px;
+  margin-right: 50px;
+	border-radius: 20px;
+	background-color: #86b519; 
+}
+/*save pages start */
+.save{
+ width: 100%;
+ margin-top: 5%;
+}
+.save h3{
+  width: 10%;
+  padding: 6px 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+justify-content: center;
+text-align: left;
+font-size: 20px;
+font-weight: bold;
+border: 1px solid #000;
+border-radius: 20px;
+background-color: aqua;
+color: black;
+}
+.firstsave{
+  width: 80%;
+  justify-content: left;
+  align-content: center;
+  flex-direction: column;
+  margin: 20px auto;
+  text-decoration: none;
+}
+#ques{
+  width: 80%;
+  font-size: 30px;
+}
+#sol{
+ width: 80%;
+  font-size: 20px;
+  padding: 15px;
+
+
+}
+.secondsave{
+  width: 25%;
+  justify-content: right;
+  align-content: right;
+  text-align: right;
+  margin-left: 70%;
+  position: relative;
+  bottom: 350px;
+}
+.secondsave img{
+  width: 70%;
+  justify-content: right;
+  align-content: right;
+  float: right;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+/*contact us page start*/
+#head{
+  width: 12%;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+   font-size: 25px;
+   border: 1px solid #000;
+   border-radius: 10px;
+   margin-left: 42%;
+   margin-top: 10px;
+   padding: 2px 10px;
+   background-color: blue;
+   color: #fff;
+   
+
+}
+#p{
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 25px;
+  font-size: 20px;
+}
+/*status bar of suucess message*/
+.contact #status{
+	color:#000;
+	font-size: 15px;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	padding: 3px 70px;
+	position: absolute;
+	top: 280%;
+	left: 80%;
+	transform: translate(-50%,-50%);
+
+}
+
+#status.Success{
+     background-color: #2335c2;
+     animation: status 4s ease forwards;
+
+}
+
+#status.error{
+	background-color: rgb(250,129,92);
+	color: #000;
+	animation: status 4s ease forwards;
+}
+
+@keyframes status{
+0%{
+	opacity: 1;
+	pointer-events: all;
+
+}
+90%{
+	opacity: 1;
+	pointer-events: all;
+}
+100%{
+	opacity: 0;
+	pointer-events: none;
+}
+
+}
+.contact{
+  width: 100%;
+  background-color: #f6f5f4;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.container{
+	width: 80%;
+  justify-content: center;
+  align-content: center;
+  margin-left: 10%;
+  padding-top: 35px;
+  
+}
+.form{
+max-width: 1200px;
+margin: auto;
+}
+.form-group{
+
+	width: 100%;
+ font-size: 25px;
+   color: #000; 
+   margin-top: 5px;
+}
+.form-group input,
+.form-group textarea{
+width: 100%;
+height: 40px;
+padding: 9px,30px;
+font-size: 18px;
+background-color: #fff;
+color:#000;
+border: 2px solid  black;
+border-radius: 10px;
+list-style-type: none;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+button{
+    
+	position: relative;
+	height: 40px;
+	width: 100px;
+	background: #111;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 15px;
+	font-family: 'Raleway',sans-serif;
+	margin-left: 0px;
+	margin-top: 20px;
+	border: 1px solid #fff;
+  text-align: center;
+  transition: 0.6s ease;
+  margin-bottom: 10px;
+}
+button:hover{
+
+  background-color: darkorange;
+  color: #000;
+  font-weight: bold;
+}
+
+/*footer class starting */
+.footer{
+  background-color: rgba(0,0,0,0.7);
+}
+.text-center{
+text-align: center;
+padding: 25px 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: center;
+color: #fff;
+}
+
+/*check box fas bar body line  (responsive website )*/
+label #butn, label #cancel{
+  width: 50%;
+  color: #fff;
+  font-size: 25px;
+  line-height: 80px;
+  float: right;
+  cursor: pointer;
+  display: none;
+  padding-right: 10rem;
+  }
+  
+  #check{
+    display: none;
+  
+  }
+
+/*--website responsive--*/
+@media(max-width:1475px){
+
+  .navlist li a{
+    
+    font-size: 15px;
+
+   }
+
+  
+
+
+}
+
+
+@media only screen and (max-width:1260px){
+ 
+  label #butn{
+
+		display: block;
+
+
+	}
+	 .navlist{
+		position: absolute;
+		width: 100%;
+		height: 50vh;
+		background-color: rgba(0,0,0,0.7);
+		top: 90px;
+		left: -100%;
+       transition: all.5s;
+       flex-direction: column;
+        
+	}
+
+	.navlist li{
+
+		display:inline-block;
+	  margin: 10px 0;
+    padding: 10px 30px ;
+		line-height: 10px;
+    
+        
+
+	}
+
+	.navlist li a{
+		font-size: 25px;
+	    text-align: center;
+      
+	}
+
+	#check:checked ~ .navlist{
+		left: 0%;
+
+	}
+   .logo img{
+     width: 50%;
+    
+   }
+   .rightnav{
+     display: none;
+   }
+  .first-half img{
+    width: 30%;
+    margin-top: 50px;
+  }
+
+  .second-half p{
+  width: 100%;
+  font-size: 25px;
+  padding-top: 30px;
+  margin-top: 20px;
+  }
+  #head{
+    width: 30%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 30%;
+  }
+  
+    .hnav{
+      height: 90px;
+  }
+
+  .save{
+    width: 100%;
+    padding-left: 10px;
+  }
+  .save h3{
+    width: 35%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 25%;
+  }
+  
+  
+  
+  
+  .firstsave{
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 25px;
+  }
+   .ques{
+     width: 100%;
+     font-size: 10px;
+     justify-content: center;
+     align-content: center;
+     text-align: center;
+     text-decoration: none;
+     display: flex;
+
+   }
+   .secondsave{
+  
+    width: 60%;
+    float: left;
+    margin-right: 100%;
+     
+   }
+   .secondsave img{
+  display: none;
+   }
+
+   #imgresponsive img{
+      display: none;
+   }
+}
