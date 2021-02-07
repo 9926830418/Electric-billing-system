@@ -495,8 +495,11 @@ label #butn, label #cancel{
   }
 
   .save{
-    width: 100%;
-    padding-left: 10px;
+    width: 80%;
+	  justify-content:center;
+	  text-align:center;
+	  
+  
   }
   .save h3{
     width: 35%;
