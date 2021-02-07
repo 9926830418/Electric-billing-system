@@ -430,20 +430,20 @@ label #butn, label #cancel{
 	 .navlist{
 		position: absolute;
 		width: 100%;
-		height: 50vh;
+		height: 15vh;
 		background-color: rgba(0,0,0,0.7);
 		top: 60px;
 		left: -100%;
        transition: all.5s;
-       flex-direction: column;
+       text-align:center;
         
 	}
 
 	.navlist li{
 
 		display:inline-block;
-	  margin: 10px 0;
-    padding: 10px 30px ;
+	        margin: 10px 0;
+               padding: 10px 30px ;
 		line-height: 10px;
     
         
