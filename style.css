@@ -507,11 +507,11 @@ label #butn, label #cancel{
     margin-left: 25%;
   }
    .gernaltips{
-    width: 100%;
+    width: 80%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   
   
