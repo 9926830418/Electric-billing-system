@@ -157,12 +157,13 @@ display: flex;
 }
 #imgresponsive{
   width: 50%;
-  justify-content: left;
-  text-align: left;
+  justify-content: center;
+  text-align: center;
+	align-item:center;
 
 }
 #imgresponsive img{
- width: 70%;
+ width: 60%;
  border: 1px solid #000;
  border-radius: 20px;
  margin-top: 20px;
@@ -182,7 +183,7 @@ display: flex;
 	color: #000;
 	font-size: 20px;
  border: 1px solid transparent;
-	padding: 10px 80px;
+	padding: 10px 30px;
   /*margin-top: 60px;
   margin-right: 50px;*/
 	border-radius: 20px;
