@@ -467,16 +467,12 @@ label #butn, label #cancel{
    .rightnav{
      display: none;
    }
-   .first-half{
-	   padding-top:50px;
-	}
+  
   .first-half img{
     width: 30%;
     margin-top: 50px;
+   padding-top:50px;
   }
-  .second-half{
-	  padding-top:50px;
-	}
   .second-half p{
   width: 100%;
   font-size: 25px;
