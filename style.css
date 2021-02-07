@@ -468,14 +468,14 @@ label #butn, label #cancel{
      display: none;
    }
    .first-half{
-	   margin-top:50px;
+	   margin-top:30%;
 	}
   .first-half img{
     width: 30%;
     margin-top: 50px;
   }
   .second-half{
-	  margin-top:60px;
+	  margin-top:20%;
 	}
   .second-half p{
   width: 100%;
