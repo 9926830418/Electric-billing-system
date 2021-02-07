@@ -166,23 +166,22 @@ display: flex;
  border: 1px solid #000;
  border-radius: 20px;
  margin-top: 20px;
- margin-left: 30px;
+ text-align:center;
 }
 .int{
   width: 100%;
 }
 #intro{
-  width: 70%;
-  float:right;
-	text-align: left;
-  justify-content: right;
+  width: 75%;
+	text-align: center;
+  justify-content: center;
 	text-decoration: none;
 	color: #000;
 	font-size: 20px;
  border: 1px solid transparent;
 	padding: 10px 80px;
-  margin-top: 60px;
-  margin-right: 50px;
+  /*margin-top: 60px;
+  margin-right: 50px;*/
 	border-radius: 20px;
 	background-color: #86b519; 
 }
