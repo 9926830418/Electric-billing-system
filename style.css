@@ -495,10 +495,8 @@ label #butn, label #cancel{
   }
 
   .save{
-    width: 80%;
-	  justify-content:center;
-	  text-align:center;
-	  
+    width: 100%;
+	
   
   }
   .save h3{
@@ -509,19 +507,9 @@ label #butn, label #cancel{
     align-content: center;
     margin-left: 25%;
   }
-   .gernaltips{
-    width: 70%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-   
-  }
-  
-  
-  
-  
+ 
   .firstsave{
-    width: 80%;
+    width: 100%;
     text-align: center;
     justify-content: center;
     align-content: center;
