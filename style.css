@@ -454,9 +454,11 @@ label #butn, label #cancel{
   }
 
   #intro{
-	  width:80%;
+	  width:75%;
     display: block;
     margin-top: 40%;
+	  margin-right:auto;
+	  margin-left:auto;
     text-align:center;
     font-size: 5vw;
 	  padding-left:0px;
