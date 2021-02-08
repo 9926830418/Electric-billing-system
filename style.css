@@ -453,12 +453,14 @@ label #butn, label #cancel{
     padding-left: 100px;
   }
   #int{
-	  width:50%;
+	  width:40%;
 	}
   #intro{
-	  width:90%;
+	  width:80%;
             display:block;
            margin-top: 40%;
+	  margin-left:auto;
+	  margin-right:auto
           text-align:center;
           font-size: 5vw;
 	  padding-left:10px;
