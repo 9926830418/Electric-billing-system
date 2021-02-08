@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" href="images/2.png" type="image.png">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <title>Electric Billing System</title>
+</head>
+
+<body>
+  <!--nav bar body-->
+  <nav class="navbar hnav">
+     
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="butn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+
+
+    <ul class="navlist">
+      <div class="logo">
+        <img src="images/2.png" alt="logo">
+      </div>
+
+      <li><a href="#home">Home</a></li>
+      <li><a href="#Service">Services</a></li>
+      <li><a href="#save">Save Electricity</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ul>
+
+
+    <div class="rightnav">
+      <input type="text" name="serach" id="search">
+      <button class="btn btn-sm">Search</button>
+    </div>
+
+  </nav>
+  <!-- home page section-->
+  <section id="home" class="firstsection background">
+
+     
+       <section class="first-half">
+           <div>
+           <img src="images/2.png" style="max-width: 100%" height="auto" alt="logo">
+           </div>
+       </section>
+       <section>
+      <div class="second-half">
+        <p class="text-big">Electricity Billing System</p>
+        <p class="text-small">Welcomes You</p>
+      </div>
+        </section>
+  </section>
+  <!--save section -->
+   <br>
+  <section class="img">
+    <div>
+      <img src="images/image.jpg" alt="img" style="max-width: 100%" height="auto">
+    </div>
+  </section>
+  <br>
+ 
+
+  <section id="save">
+    <h3><u>Gernal tips:</u></h3>
+    <section class="tips">
+      <div class="img">
+        <img src="images/tip.png" alt="tips" style="max-width:100%" height="auto">
+      </div>
+    </section>
+    <section class="int">
+    
+        <p id="intro">You had either observed or heard from others about the high or low voltage supply problem at
+          one’s house. The doubt, most of the time, goes to the poor quality of supply voltage or  voltage surge.
+          But there is another reason also and, i.e. ‘Neutral Disconnect’. In this post,we will examine how neutral
+          disconnect and its location affects your power supply performance.
+          The power supply to your house is either single-phase, i.e. 2-wire with phase and neutral or 4-wire with 3
+          phase and neutral. Read more on single and three-phase supply.
+          <br>
+          <br>
+           A power supply is distributed in parallel
+          to the various house either single-phase or three-phase supply system depending on the sanctioned load.
+          The transformer at the substation is delta-star connected wherein the input is 3-wire 3 phase, and the
+          output of the transformer is 4-wire 3 phase. Depending on the load, the power company sanctions either
+          single or three-phase supply to your house. When it is a single-phase, alternately the power is
+          distributed from the R, Y and B phase so that the load on the system is balanced. </p>
+    
+    </section>
+  </section>
+ 
+  <!--contact page section body -->
+  <section id="contact" class="contact">
+    <h3 id="head">Contact Us</h3>
+    <p id="p">Swing by for a cup of coffee,Or leave us a message:</p>
+    <div class="container">
+      <h1 id="status"></h1>
+      <form class="form" action="https://formspree.io/f/xpzonzyd" method="POST" id="myform">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" placeholder="  First Name here....">
+        </div>
+
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" placeholder="  last Name here...">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="message" name="email" placeholder="  Email here...">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" placeholder="  Write message here..." cols="30" rows="10"
+            style="height: 100px;"></textarea>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <p class="text-center">
+      copyright $copy: 2020 - All right reserved
+    </p>
+  </footer>
+  <script src="js/contact.js"></script>
+</body>
+
+</html>
