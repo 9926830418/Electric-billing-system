@@ -57,9 +57,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .navlist li a:hover{
 	color: turquoise;
 }
-.hnav{
-  height: 60px;
-}
+
 /*search bar and btn effects and hover effect */
 
 .rightnav{
