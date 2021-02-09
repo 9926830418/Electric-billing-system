@@ -225,13 +225,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 #status.Success{
      background-color: #2335c2;
+	color: #fff;
      animation: status 4s ease forwards;
 
 }
 
 #status.error{
 	background-color: rgb(250,129,92);
-	color: #000;
+	color: #fff;
 	animation: status 4s ease forwards;
 }
 
