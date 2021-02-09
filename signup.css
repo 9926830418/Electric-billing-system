@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.Main{
+	
+	position: absolute;
+	top: 40%;
+	left: 70%;
+    transform: translate(-50%,-50%);
+   padding-right: 18px;
+   color: #fff;
+}
+
+.logo img{
+          
+   position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+   width: 140px;
+   height: auto;
+   
+
+}
+.logo h1{
+	position: absolute;
+	top: 48%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: #fff;
+    font-size: 40px;
+}
+.logo p{
+	position: absolute;
+	top: 15%;
+	left: 72%;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	border: 1px solid #fff;
+	padding: 2px 20px;
+	border-radius: 20px;
+	background-color: #86b519;
+    
+}
+
+#intro{
+
+    float: left;
+	position: absolute;
+	top: 70%;
+	left: 28%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	border: 1px solid transparent;
+	padding: 5px 30px;
+	border-radius: 25px;
+	background-color: #86b519;
+
+}
+
+.Main tr td input{
+  height: 30px;
+    width: 225px;
+    color: #fff;
+   	border-radius: 20px;
+	border: 1px solid #fff;
+    outline: none;
+    background-color: #000;
+    font-size: 15px;
+}
+#name td{
+	font-size: 18px;
+	padding-top: 8px;
+	text-align: center;
+}
+#email td{
+padding-top: 6px;
+font-size: 18px;
+text-align: center;
+}
+#phone td{
+	padding-top: 6px;
+	font-size: 18px;
+	text-align: center;
+}
+#password td{
+	padding-top: 6px;
+	font-size: 18px;
+	text-align: center;
+}
+#pass td{
+	padding-top: 6px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.btn input{
+	position: absolute;
+	top: 140%;
+	left: 58%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	border-radius: 20px;
+	border: 1px solid #fff;
+	padding: 5px 30px;
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-size: 3vw;
+	
+}
+
+.btn input:hover{
+	background-color: #2335c2;
+	color: #fff;
+
+}
+.login{
+	
+position: absolute;
+top: 80%;
+left: 72%;
+transform: translate(-50%,-50%);
+text-decoration: none;
+border-radius: 30px;
+border: 1px solid transparent;
+padding: 6px 27px;
+color: #fff;
+transition: 0.6s ease;
+
+}
+
+.login:hover{
+    background-color: #2335c2;
+	color: #fff;
+}
+
+
+@media(max-width: 1030px){
+
+.logo img{
+	position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 70px;
+height:70px;
+
+}
+
+.logo h1{
+position: absolute;
+top: 22%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 20px;
+text-align: center;
+display: inline-block;
+}
+.logo p{
+   position: absolute;
+top: 32%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 10px;
+color: #fff;
+border: none;
+padding: 5px 15px;
+width: 40%;
+
+
+}
+#intro{
+	display: none;
+}
+
+form{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+  }
+
+ .Create a{
+  
+  position: absolute;
+  top: 76%;
+  left: 47%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+ font-size: 15px;
+
+ 
+  }
+
+  .btn input{
+   
+    position: absolute;
+	top: 140%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-size: 3vw;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+ }
+.Create{
+	width: 100%;
+}
+ a.login{
+	 width: 100%;
+	 border: none;
+	 border-radius: none;
+	 font-size: 25px;
+	 margin-top: 60px;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding-left: 35px;
+ }
+
+}
+

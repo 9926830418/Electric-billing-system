@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+
+body{
+background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/1.jpg);
+height: 100vh;
+background-size: cover; 
+background-position: center;
+}
+.title{
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.main{
+	position: absolute;
+	top: 50%;
+	left: 48%;
+    transform: translate(-50%,-50%);
+}
+.main tr{
+
+text-decoration: none;
+color: #fff;
+
+
+}
+
+.main tr td input{
+    height: 30px;
+    width: 200px;
+    color: #fff;
+   	border-radius: 10px;
+	border: 1px solid #fff;
+    outline: none;
+    background:none;
+    font-size: 15px;
+   
+
+}
+.Email{
+	text-align: center;
+}
+.password td{
+    
+	padding-top: 13px;
+	text-align: center;
+}
+.button{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.btn{
+
+   text-decoration: none;
+   color: #fff;
+   padding: 8px 30px;
+   border: 1px solid #fff;
+   border-radius: 20px;
+   transition: 0.6s ease;
+
+}
+
+.btn:hover{
+    background-color: #2335c2;
+	color: #fff;
+}
+
+.logo img{
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+   width: 125px;
+   height: auto;
+   padding-right: 10px;
+}
+.new a{
+	position: absolute;
+	top:75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 0.06 ease;
+}
+.account{
+	text-decoration: none;
+	border:1px solid transparent;
+	border-radius: 20px;
+	color: #fff;
+	padding: 6px 30px;
+	transition: 0.6s ease;
+}
+.account:hover{
+	background-color: #2335c2;
+	color: #fff;
+	}
+
+
+@media (max-width: 450px){
+
+.new a{
+width: 100%;
+font-size:23px;
+text-align: center;
+
+}
+
+
+}
