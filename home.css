@@ -4,7 +4,7 @@
 	font-family: century gothic;
 }
 body{
-	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../images/1.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(1.jpg);
   max-width: 100%;
   height: 80vh;
 	background-size: cover;
